@@ -13,8 +13,8 @@ function MyTab(){
     return(
         <Tab.Navigator>
             <Tab.Screen name="Home" component={HomeScreen} />
-            <Tab.Screen name="Dashboard" component={Dashboard} />
-            <Tab.Screen name="infomarción" component={Imagenes}/>
+            <Tab.Screen name="Personajes" component={Dashboard} />
+            <Tab.Screen name="Imagenes" component={Imagenes}/>
         </Tab.Navigator>
     );
 }
